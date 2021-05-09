@@ -1,0 +1,37 @@
+.App--header {
+  background-color: #222;
+  height: 200px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App--data {
+  margin: auto;
+  padding: 1em;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+.App--position {
+  margin: auto;
+  height: 200px;
+  padding: 20px;
+  background-color: rgb(179, 139, 231);
+  text-align: center;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.App-form {
+  text-align: center;
+  font-size: 1.4em;
+}
