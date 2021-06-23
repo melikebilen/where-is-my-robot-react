@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import {database} from './firebase';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home.js';
-import AboutUs from './components/pages/AboutUs.js';
 
 class App extends Component {
   constructor(props) {
@@ -49,7 +48,6 @@ class App extends Component {
           <Navbar/>
           <Switch>
             <Route path = '/' exact component={Home}/>
-            <Route path = '/aboutus' exact component={AboutUs}/>
           </Switch>
         </Router>
           
@@ -61,13 +59,7 @@ class App extends Component {
           <h3> Y : {JSON.stringify(this.state.y, null,2)}</h3>
         </div>
         <img src="https://firebasestorage.googleapis.com/v0/b/tdoa-23cf7.appspot.com/o/images%2Fxyplot.png?alt=media&token=dccacb98-a0f4-4c5d-b2a7-865ca59c948c"></img>
-        <pre className="App--data">
-          {JSON.stringify(this.state.data, null,2)}
-        </pre>
-        <form className="App--form" onSubmit={this.handleSubmit}>
-          <input type="text" value={this.state.newData}  onChange={this.handleChange}/>
-          <input type="submit"/>        
-        </form>
+
       </div>
     );
   }

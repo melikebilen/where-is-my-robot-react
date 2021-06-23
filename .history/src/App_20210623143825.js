@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import {database} from './firebase';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home.js';
-import AboutUs from './components/pages/AboutUs.js';
 
 class App extends Component {
   constructor(props) {
@@ -49,13 +48,14 @@ class App extends Component {
           <Navbar/>
           <Switch>
             <Route path = '/' exact component={Home}/>
-            <Route path = '/aboutus' exact component={AboutUs}/>
           </Switch>
         </Router>
           
         </>
         </div>
-        <div className="App--position">
+ 
+      </div>
+      <div className="App--position">
           <h3> Count : {JSON.stringify(this.state.count, null,2)}</h3>
           <h3> X : {JSON.stringify(this.state.x, null,2)}</h3>
           <h3> Y : {JSON.stringify(this.state.y, null,2)}</h3>
@@ -68,7 +68,6 @@ class App extends Component {
           <input type="text" value={this.state.newData}  onChange={this.handleChange}/>
           <input type="submit"/>        
         </form>
-      </div>
     );
   }
 }

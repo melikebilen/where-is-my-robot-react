@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import {database} from './firebase';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home.js';
-import AboutUs from './components/pages/AboutUs.js';
 
 class App extends Component {
   constructor(props) {
@@ -49,7 +48,6 @@ class App extends Component {
           <Navbar/>
           <Switch>
             <Route path = '/' exact component={Home}/>
-            <Route path = '/aboutus' exact component={AboutUs}/>
           </Switch>
         </Router>
           

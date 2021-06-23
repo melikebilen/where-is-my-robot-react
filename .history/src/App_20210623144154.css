@@ -1,6 +1,6 @@
 .App--header {
-  background-color: rgb(0, 0, 0);
-  height: 100px;
+  background-color: rgb(201, 149, 149);
+  height: 200px;
   padding: 20px;
   color: white;
   text-align: center;
@@ -14,23 +14,19 @@
 }
 
 .App--position {
-  opacity: 0.5;
   margin: auto;
-  height: 125px;
-  padding: 5px;
-  width: 30%;
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
+  height: 100px;
+  padding: 20px;
+  background-color: rgb(197, 122, 122);
   text-align: center;
 }
 
 img {
-  opacity: 0.5;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
-  border: 20px solid rgb(0, 0, 0);
+  width: 50%;
+  border: 20px solid rgb(197, 122, 122);
 }
 
 .App-form {
