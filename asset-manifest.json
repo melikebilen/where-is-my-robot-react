@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/melikebilen.github.io/where-is-my-robot-react/static/css/main.8e65b324.chunk.css",
+    "main.js": "/melikebilen.github.io/where-is-my-robot-react/static/js/main.2ca51366.chunk.js",
+    "main.js.map": "/melikebilen.github.io/where-is-my-robot-react/static/js/main.2ca51366.chunk.js.map",
+    "runtime-main.js": "/melikebilen.github.io/where-is-my-robot-react/static/js/runtime-main.2ec41f5a.js",
+    "runtime-main.js.map": "/melikebilen.github.io/where-is-my-robot-react/static/js/runtime-main.2ec41f5a.js.map",
+    "static/js/2.1388b63c.chunk.js": "/melikebilen.github.io/where-is-my-robot-react/static/js/2.1388b63c.chunk.js",
+    "static/js/2.1388b63c.chunk.js.map": "/melikebilen.github.io/where-is-my-robot-react/static/js/2.1388b63c.chunk.js.map",
+    "index.html": "/melikebilen.github.io/where-is-my-robot-react/index.html",
+    "static/css/main.8e65b324.chunk.css.map": "/melikebilen.github.io/where-is-my-robot-react/static/css/main.8e65b324.chunk.css.map",
+    "static/js/2.1388b63c.chunk.js.LICENSE.txt": "/melikebilen.github.io/where-is-my-robot-react/static/js/2.1388b63c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ec41f5a.js",
+    "static/js/2.1388b63c.chunk.js",
+    "static/css/main.8e65b324.chunk.css",
+    "static/js/main.2ca51366.chunk.js"
+  ]
+}
