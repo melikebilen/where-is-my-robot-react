@@ -1,0 +1,49 @@
+.App--header {
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App--data {
+  margin: auto;
+  padding: 1em;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+.App--position {
+  opacity: 0.5;
+  margin: auto;
+  height: 125px;
+  padding: 5px;
+  width: 30%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+img {
+  opacity: 0.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: 20px solid rgb(0, 0, 0);
+}
+
+.ourpictures {
+  opacity: 0.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border: 20px solid rgb(0, 0, 0);
+  z-index: 2;
+}
+
+.App-form {
+  text-align: center;
+  font-size: 1.4em;
+}
